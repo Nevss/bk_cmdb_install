@@ -39,11 +39,11 @@ yum group install "Development Tools" -y
 
 sleep 1s 
 
-wget http://download.redis.io/releases/redis-3.2.11.tar.gz && tar xf redis-3.2.11.tar.gz
-wget https://mirrors.tuna.tsinghua.edu.cn/apache/zookeeper/stable/zookeeper-3.4.12.tar.gz && tar xf zookeeper-3.4.11.tar.gz
-wget http://bkopen-10032816.file.myqcloud.com/cmdb3/cmdb-3.0.6.tar.gz && tar xf cmdb-3.0.6.tar.gz
+wget https://github.com/Nevss/bk_cmdb_install/blob/master/redis-3.2.11.tar.gz?raw=true && tar xf redis-3.2.11.tar.gz
+wget https://github.com/Nevss/bk_cmdb_install/blob/master/zookeeper-3.4.12.tar.gz?raw=true && tar xf zookeeper-3.4.11.tar.gz
+wget https://github.com/Nevss/bk_cmdb_install/blob/master/cmdb-3.0.6.tar.gz?raw=true && tar xf cmdb-3.0.6.tar.gz
 
-wget https://nodejs.org/dist/v4.5.0/node-v4.5.0.tar.gz && tar xf node-v4.5.0.tar.gz
+wget https://github.com/Nevss/bk_cmdb_install/blob/master/node-v4.5.0.tar.gz?raw=true && tar xf node-v4.5.0.tar.gz
 
 sleep 1s 
 
